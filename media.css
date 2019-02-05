@@ -1,0 +1,609 @@
+
+@media (max-width: 1440px) {
+
+    .header {
+        height: 700px;
+    }
+     .header-text h1,
+     .header-text h1 span {
+        font-size: 36px;
+    }
+    .header-text p {
+        font-size: 12px;
+        position: relative;
+        top: 50px;
+    }
+
+    .header-text h1 {
+        position: relative;
+        top: 50px;
+    }
+    #first-button,
+    #second-button{
+        width: 25%;
+        font-size: 11px;
+    }
+
+   .header-buttons {
+        top: -30px;
+   }
+
+   .apple-android {
+        top: -10px;
+   }
+    .slider-buttons {
+        top: -10px;
+    }
+    .next-icon {
+        left: 40px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .header {
+        height: 550px;
+    }
+   
+    .menu-block  {
+        width: 70%;
+    }
+     .header-text h1,
+     .header-text h1 span {
+        font-size: 26px;
+    }
+    
+    .header-text-block {
+        justify-content: center;
+    }
+    .header-text p {
+        font-size: 13px;
+    }
+
+    .header-buttons {
+    top: -10px;
+    }
+    #first-button,
+    #second-button{
+        width: 30%;
+        height: 60%;
+        font-size: 9px;
+    }
+    .slider-buttons {
+        top: -50px;
+    }
+    .prev-slide-icon{
+        top: 200px;
+        left: 45px;
+    }
+
+    .apple-android {
+        top: -10px;
+    }
+    .apple-android p {
+        font-size: 12px;
+    }
+    .android {
+        position: absolute;
+        left: 140px;
+    }
+
+    .apple,
+    .android {
+        width: 30px;
+        height: 30px;
+    }
+    .next-icon {
+        top:200px;
+        left: 20px;
+    }
+    .second-container {
+        height: 800px;
+    }
+    .summarise-title h2,
+    .show-gallery-title h2 {
+        font-size: 24px;
+    }
+    #icon1 p,
+    #icon2 p,
+    #icon3 p,
+    #icon4 p,
+    .summarise-icons .icon1 p, 
+    .summarise-icons .icon2 p, 
+    .summarise-icons .icon3 p, 
+    .summarise-icons .icon4 p {
+        font-size: 10px;
+    }
+
+    .summarise-icons .icon1 h3, 
+    .summarise-icons .icon2 h3, 
+    .summarise-icons .icon3 h3, 
+    .summarise-icons .icon4 h3 {
+        font-size: 12px;
+    }
+
+    .icon-image {
+        width: 50%;
+        height: 32%;
+    }
+    .icon2-image {
+        background-size: 40%;
+    }
+
+    .show-gallery-icons #icon1,
+    .show-gallery-icons #icon2,
+    .show-gallery-icons #icon3,
+    .show-gallery-icons #icon4 {
+        width: 185px;
+        height: 70%;
+    }
+
+    #icon1-image h3, 
+    #icon2-image h3, 
+    #icon3-image h3, 
+    #icon4-image h3 {
+        top: 80px;
+    }
+    .third-container {
+        height: 400px;
+    }
+
+    .third-container h2,
+    .third-container h2 span {
+        font-size: 36px;
+    }
+    .fourth-container {
+        height: 500px;
+    }
+
+    .contact-form {
+        top: 80px;
+        height: 350px;
+        width: 30%;
+    }
+
+    footer {
+        height: 80px;
+    }
+
+    .terms,
+    .copyright{
+        align-self: start;
+    }
+}
+
+
+
+@media ( max-width: 768px ) {
+    .menu-block  {
+        width: 66%;
+    }
+    .header {
+        height: 430px;
+    }
+    .menu-block ul li a{
+        font-size: 65%;
+        padding-top: 40px;
+    }
+    .header-text p {
+        font-size: 10px;
+    }
+    .header-text h1 {
+        width: 400px;
+    }
+     .header-buttons {
+        top: -65px;
+    }
+    #first-button,
+    #second-button {
+        width: 35%;
+        font-size: 9px;
+    }
+    .apple-android  {
+        top: -100px;
+    }
+    .android {
+      
+        left: 135px;
+    }
+    .slider-buttons {
+        top: -155px;
+    }
+    .prev-slide-icon,
+    .next-icon {
+        top: 150px;
+        left: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    .prev-slide-icon:before {
+        left: 17px;
+    }
+    .next-icon:before {
+        left: 10px;
+    }
+    .prev-slide-icon:before,
+    .next-icon:before {
+        top: 15px; 
+        width: 12px;
+        height: 12px;
+    }
+
+    .second-container {
+        height: 1200px;
+    }
+
+    .summarise-title h2,
+    .show-gallery-title h2 {
+        font-size: 22px;
+    }
+    .summarise-title p,
+    .show-gallery-title p {
+        font-size: 12px;
+        top: -20px;
+    } 
+    #icon1 p,
+    #icon2 p,
+    #icon3 p,
+    #icon4 p,
+    .summarise-icons .icon1 p, 
+    .summarise-icons .icon2 p, 
+    .summarise-icons .icon3 p, 
+    .summarise-icons .icon4 p {
+        left: 12px;
+        font-size: 10px;
+        width: 90%;
+        height: 75px;
+    }
+    .summarise-block {
+        height: 50%;
+        justify-content: flex-start;
+    }
+
+    .summarise-icons .icon1 h3, 
+    .summarise-icons .icon2 h3, 
+    .summarise-icons .icon3 h3, 
+    .summarise-icons .icon4 h3 {
+        font-size: 11px;
+    } 
+    .summarise-icons .icon1,
+    .summarise-icons .icon2,
+    .summarise-icons .icon3,
+    .summarise-icons .icon4 {
+        width: 300px;
+        height: 55%;
+    }
+
+    .summarise-icons {
+       top:-30px; 
+    }
+
+    .summarise-icons,
+    .show-gallery-icons {
+        justify-content: center;  
+    }
+
+    .icon-image {
+        width: 130px;
+        height: 130px;
+    }
+
+    .show-gallery-icons {
+         top:-10px; 
+    }
+
+    .show-gallery-icons #icon1,
+    .show-gallery-icons #icon2,
+    .show-gallery-icons #icon3,
+    .show-gallery-icons #icon4 {
+        width: 275px;
+        height: 57%;
+        margin-right: 30px;
+    }
+
+    #icon1-image h3, 
+    #icon2-image h3, 
+    #icon3-image h3, 
+    #icon4-image h3 {
+        top: 105px;   
+    }
+
+    .show-gallery-icons {
+         left: 20px;
+    }
+    
+    .third-container {
+        height: 350px;
+    }
+
+    .third-container h2,
+    .third-container h2 span {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 320px) and (max-width: 475px)  {
+   
+    .menu-block {
+        display: none;
+    }
+
+    .vertical-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 55%;
+        height: 345px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #0a121c;
+        opacity: 0.95;
+        flex-wrap: wrap;
+        z-index: 10;
+    }
+
+    .vertical-menu ul {
+        position: relative;
+        left: -40px;
+        top: -40px;
+        width: 142%;
+        
+    }
+
+    .vertical-menu ul li {
+        border: 0.5px solid #4bcaff;
+        width: 300px;
+        height: 40px;
+    }
+    .vertical-menu ul li  {
+        font-family: "Lato Regular";
+        font-size: 24px;
+        font-weight: 300;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .vertical-menu ul li:hover {
+        background-color: #6d747a;
+        color: white;
+        filter: invert(100%);
+
+    }
+
+    .menu-block ul li a:hover {
+        color: white;
+        border-top-color: transparent;
+
+    }
+    .hamburger {
+        display: block;
+        left: 40px;
+    }
+    .header-logo img {
+        left: -40px;
+        width: 120px;
+    }
+    .prev-slide-icon,
+    .next-icon {
+        display: none;
+    }
+    .iphone {
+        display: none;
+    }
+
+    .header-text h1,
+    .header-text h1 span {
+        font-size: 20x;
+    }
+
+    .header-text h1 {
+        width: 300px;
+        position: relative;
+        top: -60px;
+        left: -20px;
+        text-align: center;
+    }
+    .header {
+        height: 400px;
+    }
+
+    .header-text p {
+        width: 280px;
+        height: 100%;
+        position: relative;
+        top:-65px;
+        text-align: center;
+    }
+    .header-buttons {
+        top: -140px;
+        left: 30px;
+        width: 220px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    #first-button,
+    #second-button{
+        width: 75px;
+        margin-bottom: 10px;
+    }
+
+    .apple-android {
+        width: 50%;
+        left: 60px;
+        top:-150px;
+    }
+
+    .apple {
+        position: absolute;
+        left: 90px;
+        top: 14px;
+    }
+    .android {
+        left: 120px;
+        top: 14px;
+    }
+
+    .slider-buttons {
+        display: none;  
+    }
+
+    .slider-buttons div:first-child {
+        width: 8px;
+        height: 8px;
+    }
+    .summarise-title h2,
+    .show-gallery-title h2 {
+        font-size: 20px;
+        top: -10px;
+    }
+
+    .summarise-icons .icon1,
+    .summarise-icons .icon2,
+    .summarise-icons .icon3,
+    .summarise-icons .icon4 {
+        width: 200px;
+    }
+
+    .second-container {
+        height: 1900px;
+    }
+
+    .summarise-block {
+        height: 1000px;
+    }
+    
+    .show-gallery-block{
+        height: 750px;
+    }  
+
+    .summarise-title p {
+        font-size: 11px;
+        top: -100px;
+    }
+    
+    .summarise-icons .icon1,
+    .summarise-icons .icon2,
+    .summarise-icons .icon3,
+    .summarise-icons .icon4 {
+        width: 300px;
+        height: 30%;
+    }
+
+    .summarise-icons {
+       top:-130px; 
+    }
+
+    .summarise-icons .icon1 p, 
+    .summarise-icons .icon2 p, 
+    .summarise-icons .icon3 p, 
+    .summarise-icons .icon4 p {
+        left: 12px;
+        font-size: 10px;
+        width: 90%;
+        height: 75px;
+    }
+
+ 
+    .summarise-icons .icon1 h3, 
+    .summarise-icons .icon2 h3, 
+    .summarise-icons .icon3 h3, 
+    .summarise-icons .icon4 h3 {
+        font-size: 10px;
+    } 
+
+    .icon-image {
+        width: 110px;
+        height: 110px;
+    }
+    
+     .show-gallery-icons {
+         top:-90px; 
+    }
+    
+    .show-gallery-title p {
+        top: -70px;
+    }
+
+    .show-gallery-icons #icon1,
+    .show-gallery-icons #icon2,
+    .show-gallery-icons #icon3,
+    .show-gallery-icons #icon4 {
+        width: 275px;
+        height: 210px;
+        margin-right: 30px;
+    }
+
+    #icon1-image h3, 
+    #icon2-image h3, 
+    #icon3-image h3, 
+    #icon4-image h3 {
+        top: 80px;   
+    }
+
+    .show-gallery-icons {
+         left: 20px;
+    }
+
+    #icon1 p,
+    #icon2 p,
+    #icon3 p,
+    #icon4 p {
+        top:16px;
+        width: 100%;
+        left: 0px;
+        height: 60px;
+    }
+
+     .third-container {
+        height: 250px;
+    }
+
+    .third-container h2,
+    .third-container h2 span {
+        font-size: 20px;
+    }
+
+    .third-container h2{
+        width: 100%;
+    }
+
+    .third-container p {
+        position: relative;
+        top: -20px;
+        width: 95%;
+        font-size: 10px;
+        text-align: center;
+        font-weight: 300;
+    }
+    
+    .play-icon {
+        width: 19%;
+        height: 15%;
+    }
+
+    .fourth-container {
+        height: 300px;
+    }
+
+    .contact-form {
+        top: 30px;
+        height: 250px;
+        width: 60%;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    .terms,
+    .copyright {
+        font-size: 8px;
+    } 
+}   
+
+    
+
